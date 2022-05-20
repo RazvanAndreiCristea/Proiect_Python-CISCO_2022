@@ -46,7 +46,6 @@ for j in range(total_judete):
     judetel.scrie_numar()
 
 jocul_merge = True
-
 dormi(1)
 fereastra = ferestruica.askquestion("Start", "Ești gata să câștigi România?")
 
