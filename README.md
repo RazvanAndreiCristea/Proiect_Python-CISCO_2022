@@ -1,3 +1,5 @@
+# Câștigă România doar cu Geografia
+
 Ideea de joc este inspirată după celebrul concurs Câștigă România prezentat de unicul și inegalabilul Virgil Ianțu. Deosebirea dintre jocul meu și cel de la televizor
 este că e mult mai simplificat, iar întrebările constau în identificarea corectă a județelor României.
 
