@@ -1,6 +1,7 @@
 ﻿from turtle import Turtle
 
 class Titlu(Turtle):
+
 	def __init__(self):
 		super().__init__()
 		self.speed("fastest")

@@ -2,7 +2,7 @@ import turtle, pandas
 from random import choice as bulan
 from time import sleep as dormi
 from tkinter import messagebox as ferestruica
-from clase import Judet
+from judetu import Judet
 from titlu import Titlu
 
 ecran = turtle.Screen()
@@ -34,12 +34,18 @@ ferestruica.showinfo("Mesaj cu titlu informativ.", "Județele sunt scrise fără
 
 total_judete = len(lista_judete)
 judete_obiectuale = []
+index_judete = []
+
+for j in range(total_judete):
+    index_judete.append(j + 1)
 
 for j in range(total_judete):
 
     judetel = Judet()
+    index_judet = bulan(index_judete)
     judetel.nume_judet = lista_judete[j]
-    judetel.numar_judet = j + 1
+    judetel.numar_judet = index_judet
+    index_judete.remove(index_judet)
     judetel.pozitie = dictionar_judete[lista_judete[j]]
 
     judete_obiectuale.append(judetel)
@@ -60,6 +66,7 @@ if jocul_merge == True:
 
     while numar_ghiciri < total_judete:
         judet_selectat = bulan(judete_obiectuale)
+        judet_selectat.judet_curent()
         raspuns = ecran.textinput(title = f"Ești la întrebarea {numar_ghiciri + 1} din {total_judete}", prompt = f"Numele județului cu numărul {judet_selectat.numar_judet} este: ")
 
         if raspuns is None:

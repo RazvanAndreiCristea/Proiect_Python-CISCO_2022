@@ -20,6 +20,11 @@ class Judet(Turtle):
         self.color("green")
         self.write(self.nume_judet, align = "center")
 
+    def judet_curent(self):
+        self.clear()
+        self.color("orange")
+        self.write(self.numar_judet, align = "center")
+
     def gresala_judet(self):
         self.clear()
         self.color("red")
