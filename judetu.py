@@ -1,6 +1,7 @@
 from turtle import Turtle
 
 class Judet(Turtle):
+
     def __init__(self):
         super().__init__()
         self.speed("fastest")
@@ -28,4 +29,4 @@ class Judet(Turtle):
     def gresala_judet(self):
         self.clear()
         self.color("red")
-        self.write(self.nume_judet, align = "center")
+        self.write(self.nume_judet, align = "center") 
