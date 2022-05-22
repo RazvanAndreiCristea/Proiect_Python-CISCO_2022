@@ -41,7 +41,8 @@ for j in range(total_judete):
 
 for j in range(total_judete):
 
-    judetel = Judet()
+    judetel = Judet() 
+
     index_judet = bulan(index_judete)
     judetel.nume_judet = lista_judete[j]
     judetel.numar_judet = index_judet
