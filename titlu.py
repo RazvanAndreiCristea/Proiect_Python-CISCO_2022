@@ -7,6 +7,6 @@ class Titlu(Turtle):
 		self.speed("fastest")
 		self.hideturtle()
 		self.penup()
-		self.goto(0, 330)
+		self.goto(0, 400)
 		self.color("yellow")
-		self.write("Câștigă România!", font=("Times New Roman", 28, "bold"), align = "center")
+		self.write("Câștigă România!", font = ("Times New Roman", 28, "bold"), align = "center")

@@ -14,19 +14,19 @@ class Judet(Turtle):
         self.hideturtle()
         self.penup()
         self.goto(self.pozitie)
-        self.write(self.numar_judet, align = "center")
+        self.write(self.numar_judet, align = "center", font = ("Times New Roman", 12 , "bold"))
 
     def scrie_judet(self):
         self.clear()
         self.color("green")
-        self.write(self.nume_judet, align = "center")
+        self.write(self.nume_judet, align = "center", font = ("Times New Roman", 12 , "bold"))
 
     def judet_curent(self):
         self.clear()
         self.color("orange")
-        self.write(self.numar_judet, align = "center")
+        self.write(self.numar_judet, align = "center", font = ("Times New Roman", 12 , "bold"))
 
     def gresala_judet(self):
         self.clear()
         self.color("red")
-        self.write(self.nume_judet, align = "center") 
+        self.write(self.nume_judet, align = "center", font = ("Times New Roman", 12 , "bold")) 
