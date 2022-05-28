@@ -8,7 +8,7 @@ from orasu import Oras
 from titlu import Titlu
 
 ecran = turtle.Screen()
-ecran.title("Câștigă România învățând care sunt județele acesteia")
+ecran.title("Câștigă România învățând care sunt județele și reședințele de județ ale acestora")
 ecran.bgcolor("black")
 
 harta = "romania.gif"
@@ -101,11 +101,9 @@ if jocul_merge == True:
         randomizare = -1
 
         if judete_ghicite == total_judete:
-
             randomizare = 2
 
         elif orase_ghicite == total_orase:
-
             randomizare = 1
 
         else:
