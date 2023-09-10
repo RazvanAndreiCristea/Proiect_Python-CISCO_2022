@@ -14,7 +14,7 @@ class Oras(Turtle):
         self.hideturtle()
         self.penup()
         self.goto(self.pozitie)
-        self.write(self.litera_oras, align = "center", font = ("Times New Roman", 12 , "bold"))
+        self.write(self.litera_oras, align = "center", font = ("Times New Roman", 15 , "bold"))
 
     def scrie_oras(self):
         self.clear()
@@ -24,7 +24,7 @@ class Oras(Turtle):
     def oras_curent(self):
         self.clear()
         self.color("magenta")
-        self.write(self.litera_oras, align = "center", font = ("Times New Roman", 10 , "bold"))
+        self.write(self.litera_oras, align = "center", font = ("Times New Roman", 15 , "bold"))
 
     def gresala_oras(self):
         self.clear()

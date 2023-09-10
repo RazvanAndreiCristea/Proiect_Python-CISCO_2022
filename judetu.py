@@ -14,7 +14,7 @@ class Judet(Turtle):
         self.hideturtle()
         self.penup()
         self.goto(self.pozitie)
-        self.write(self.numar_judet, align = "center", font = ("Times New Roman", 12 , "bold"))
+        self.write(self.numar_judet, align = "center", font = ("Times New Roman", 14 , "bold"))
 
     def scrie_judet(self):
         self.clear()
@@ -24,7 +24,7 @@ class Judet(Turtle):
     def judet_curent(self):
         self.clear()
         self.color("orange")
-        self.write(self.numar_judet, align = "center", font = ("Times New Roman", 12 , "bold"))
+        self.write(self.numar_judet, align = "center", font = ("Times New Roman", 14 , "bold"))
 
     def gresala_judet(self):
         self.clear()
